@@ -11,3 +11,5 @@ k -= x
 y = min(n // 2, k)
 
 print(x + y)
+
+
