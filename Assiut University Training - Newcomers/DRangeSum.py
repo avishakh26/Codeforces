@@ -10,3 +10,6 @@ for _ in range(t):
     sum_L = (L - 1) * L // 2
     
     print(sum_R - sum_L)
+    
+    
+    
