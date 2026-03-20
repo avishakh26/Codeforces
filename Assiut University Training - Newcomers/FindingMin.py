@@ -8,4 +8,5 @@ arr = list(map(int, input().split()))
 for i in range(0, n, k):
     
     group = arr[i:i+k]
+    
     print(min(group), end=" ")
