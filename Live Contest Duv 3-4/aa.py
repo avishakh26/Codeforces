@@ -1,12 +1,16 @@
-
 test_cases = int(input())
 
-
 for _ in range(test_cases):
-    
     x = int(input())
-
-    y = x + 1
     
-    
+    if x < 67:
+        y = x + 1
+    else:
+        y = x
+        
     print(y)
+    
+    
+    
+    
+     
