@@ -10,7 +10,7 @@ else:
 
 # x = input()
 
-# first_digit = int(x[0])
+# first_digit = int(x[0])n
 
 # if first_digit % 2 == 0:
 #     print("EVEN")
