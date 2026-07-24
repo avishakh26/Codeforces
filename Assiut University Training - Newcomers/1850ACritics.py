@@ -10,21 +10,23 @@
 #         print("NO")
         
         
-        
-arr = list(map(int,input().split()))
+n = int(input())
 
-found = False
+for _ in range(n):       
+    arr = list(map(int,input().split()))
 
-for i in range(3):
-    for j in range(i, 1+3):
-        if arr[i] + arr[[j]] >= 10:
-            found = True
-            break
+    found = False
+
+    for i in range(3):
+        for j in range(i+ 1, 3):
+            if arr[i] + arr[j] >= 10:
+                found = True
+                break
+        if found:
+            break 
+
     if found:
-        break 
-
-if found:
-    ("YES")
-else:
-    ("NO")
-        
+        print("YES")
+    else:
+        print("NO")
+            
