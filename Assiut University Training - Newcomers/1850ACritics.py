@@ -30,3 +30,9 @@ for _ in range(n):
     else:
         print("NO")
             
+
+
+
+
+
+      
